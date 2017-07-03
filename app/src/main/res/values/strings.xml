@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TourGuide</string>
+
+    <string name="oma_address">Tuomiokirkonkatu 30, 33100 Tampere</string>
+    <string name="oma_description">Leivontaa parhainta - makua maukkainta. 60-vuotinen perinne  ja osaaminen näkyvät vahvana myös tänään. Kolmannen polven perheyrityksessä leivotaan tutun turvallisia klassikoita ja uusia makuelämyksiä.</string>
+    <string name="oma_title">Pyymäen oma</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="d">lfsdk</string>
+</resources>
