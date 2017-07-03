@@ -27,7 +27,7 @@ public class LakesFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.location_list, container, false);
 
         final ArrayList<Location> locations = new ArrayList<Location>();
-        locations.add(new Location(getString(R.string.oma_title), getString(R.string.oma_description), getString(R.string.oma_address), R.drawable.sun));
+        locations.add(new Location(R.string.oma_title, R.string.oma_description, R.string.oma_address, R.drawable.sun));
 
         LocationAdapter adapter = new LocationAdapter(getActivity(), locations, R.color.lakes);
 

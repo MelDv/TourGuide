@@ -1,40 +1,40 @@
 package com.example.android.tourguide;
 
 public class Location {
-    private String title;
-    private String address;
-    private String description;
+    private int title;
+    private int address;
+    private int description;
     private int image = NO_IMAGE_PROVIDED;
     private static final int NO_IMAGE_PROVIDED = -1;
 
-    public Location(String title, String address, String description, int image) {
+    public Location(int title, int address, int description, int image) {
         this.title = title;
         this.address = address;
         this.description = description;
         this.image = image;
     }
 
-    public String getTitle() {
+    public int getTitle() {
         return title;
     }
 
-    public void setTitle(String title) {
+    public void setTitle(int title) {
         this.title = title;
     }
 
-    public String getAddress() {
+    public int getAddress() {
         return address;
     }
 
-    public void setAddress(String address) {
+    public void setAddress(int address) {
         this.address = address;
     }
 
-    public String getDescription() {
+    public int getDescription() {
         return description;
     }
 
-    public void setDescription(String description) {
+    public void setDescription(int description) {
         this.description = description;
     }
 
