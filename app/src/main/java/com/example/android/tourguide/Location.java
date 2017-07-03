@@ -14,6 +14,7 @@ public class Location {
         this.image = image;
     }
 
+
     public int getTitle() {
         return title;
     }
@@ -38,11 +39,13 @@ public class Location {
         this.description = description;
     }
 
-    public int getImageResourceId() {
+    public int getImage() {
         return image;
     }
 
-    public void setImage(int image) { this.image = image; }
+    public void setImage(int image) {
+        this.image = image;
+    }
 
     public boolean hasImage() {
         return image != NO_IMAGE_PROVIDED;
@@ -50,6 +53,6 @@ public class Location {
 
     @Override
     public String toString() {
-        return title + ": " + description + "\naddress";
+        return title + ": " + description + "\naddress: " + address + "\nImage id: " + image;
     }
 }

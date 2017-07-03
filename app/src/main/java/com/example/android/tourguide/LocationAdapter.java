@@ -2,7 +2,6 @@ package com.example.android.tourguide;
 
 import android.content.Context;
 import android.support.v4.content.ContextCompat;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -45,7 +44,7 @@ public class LocationAdapter extends ArrayAdapter<Location> {
 
         ImageView imageView = (ImageView) listItemView.findViewById(R.id.image);
         if (currentLocation.hasImage()) {
-            imageView.setImageResource(currentLocation.getImageResourceId());
+            imageView.setImageResource(currentLocation.getImage());
         } else {
             imageView.setVisibility(View.GONE);
         }
@@ -54,7 +53,7 @@ public class LocationAdapter extends ArrayAdapter<Location> {
         int color = ContextCompat.getColor(getContext(), mColorResourceId);
         locationContainer.setBackgroundColor(color);
 
-        Log.i(LocationAdapter.class.getName(), "LOGcolor: "+ color);
+//        Log.i(LocationAdapter.class.getName(), "LOGcolor: "+ color);
 
         return listItemView;
     }

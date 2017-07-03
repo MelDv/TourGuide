@@ -30,6 +30,8 @@ public class CafeFragment extends Fragment {
 
         LocationAdapter adapter = new LocationAdapter(getActivity(), locations, R.color.cafe);
 
+//        Log.i(CafeFragment.class.getName(), locations.get(0).toString());
+
         ListView listView = (ListView) rootView.findViewById(R.id.list);
         listView.setAdapter(adapter);
 
