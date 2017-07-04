@@ -9,7 +9,7 @@
         android:id="@+id/image"
         android:layout_width="@dimen/list_image_width"
         android:layout_height="@dimen/list_height"
-        android:scaleType="centerCrop"/>
+        android:scaleType="centerCrop" />
 
     <RelativeLayout
         android:id="@+id/location_container"

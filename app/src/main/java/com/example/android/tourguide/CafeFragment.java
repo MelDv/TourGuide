@@ -15,7 +15,6 @@ import java.util.ArrayList;
  */
 public class CafeFragment extends Fragment {
 
-
     public CafeFragment() {
         // Required empty public constructor
     }
@@ -33,8 +32,6 @@ public class CafeFragment extends Fragment {
         locations.add(new Location(R.string.tallipiha_title, R.string.tallipiha_add, R.string.tallipiha_desc, R.drawable.tallipiha));
 
         LocationAdapter adapter = new LocationAdapter(getActivity(), locations, R.color.cafe);
-
-//        Log.i(CafeFragment.class.getName(), locations.get(0).toString());
 
         ListView listView = (ListView) rootView.findViewById(R.id.list);
         listView.setAdapter(adapter);

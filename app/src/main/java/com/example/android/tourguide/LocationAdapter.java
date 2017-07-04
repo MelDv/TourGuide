@@ -53,8 +53,6 @@ public class LocationAdapter extends ArrayAdapter<Location> {
         int color = ContextCompat.getColor(getContext(), mColorResourceId);
         locationContainer.setBackgroundColor(color);
 
-//        Log.i(LocationAdapter.class.getName(), "LOGcolor: "+ color);
-
         return listItemView;
     }
 }
