@@ -14,6 +14,12 @@ public class Location {
         this.image = image;
     }
 
+    public Location(int title, int address, int description) {
+        this.title = title;
+        this.address = address;
+        this.description = description;
+    }
+
 
     public int getTitle() {
         return title;

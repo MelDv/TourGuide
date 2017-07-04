@@ -9,8 +9,8 @@
     <color name="icons">#FFFFFF</color>
     <color name="divider">#BDBDBD</color>
 
-    <color name="cafe">#d7ccc8</color>
-    <color name="lakes">#b2ebf2</color>
-    <color name="parks">#b2dfdb</color>
-    <color name="sights">#ffccbc</color>
+    <color name="cafe">#efebe9</color>
+    <color name="lakes">#e0f7fa</color>
+    <color name="parks">#f1f8e9</color>
+    <color name="sights">#fbe9e7</color>
 </resources>

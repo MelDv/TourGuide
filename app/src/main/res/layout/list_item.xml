@@ -8,7 +8,8 @@
     <ImageView
         android:id="@+id/image"
         android:layout_width="@dimen/list_image_width"
-        android:layout_height="@dimen/list_height" />
+        android:layout_height="@dimen/list_height"
+        android:scaleType="centerCrop"/>
 
     <RelativeLayout
         android:id="@+id/location_container"
@@ -25,6 +26,7 @@
             android:layout_height="@dimen/list_title_height"
             android:layout_margin="@dimen/min_margin"
             android:textColor="@color/primary_text"
+            android:textSize="@dimen/sp_list_title"
             android:textStyle="bold" />
 
         <TextView
@@ -35,17 +37,19 @@
             android:layout_marginBottom="@dimen/min_margin"
             android:layout_marginLeft="@dimen/min_margin"
             android:layout_marginRight="@dimen/min_margin"
-            android:textColor="@color/secondary_text" />
+            android:textColor="@color/secondary_text"
+            android:textSize="@dimen/sp_list_text" />
 
         <TextView
             android:id="@+id/list_address"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="@dimen/list_title_height"
             android:layout_below="@+id/list_description"
             android:layout_marginBottom="@dimen/min_margin"
             android:layout_marginLeft="@dimen/min_margin"
             android:layout_marginRight="@dimen/min_margin"
-            android:textColor="@color/secondary_text" />
+            android:textColor="@color/secondary_text"
+            android:textSize="@dimen/sp_list_text" />
 
     </RelativeLayout>
 

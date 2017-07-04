@@ -1,7 +1,81 @@
 <resources>
     <string name="app_name">TourGuide</string>
 
-    <string name="oma_address">Tuomiokirkonkatu 30, 33100 Tampere</string>
-    <string name="oma_description">Leivontaa parhainta - makua maukkainta. 60-vuotinen perinne  ja osaaminen näkyvät vahvana myös tänään. Kolmannen polven perheyrityksessä leivotaan tutun turvallisia klassikoita ja uusia makuelämyksiä.</string>
+    <!--menuitems-->
+    <string name="sights">Sights</string>
+    <string name="parks">Parks</string>
+    <string name="cafes">Cafés</string>
+    <string name="nature">Nature</string>
+
+    <!--cafe´s-->
     <string name="oma_title">Pyymäen oma</string>
+    <string name="oma_description">Leivontaa parhainta - makua maukkainta. Perheyrityksessä leivotaan klassikoita ja uusia makuelämyksiä.</string>
+    <string name="oma_address">Tuomiokirkonkatu 30, 33100 Tampere</string>
+
+    <string name="pyynikki_title">Pyynikin Nakötornin Kahvila</string>
+    <string name="pyynikki_desc">Kaupungin parhaat munkit ja näköala luonnon helmasta.</string>
+    <string name="pyynikki_add">Näkötornintie 20, 33230 Tampere</string>
+
+    <string name="tallipiha_title">Tallipihan kahvila</string>
+    <string name="tallipiha_desc">Idyllinen miljöö lähes keskellä kaupunkia. Koristeelliset puurakennukset on kunnostettu 1800-luvun lopun tyyliin.</string>
+    <string name="tallipiha_add">Kuninkaankatu 4, 33210 Tampere</string>
+
+    <string name="europa_title">Café Europa</string>
+    <string name="europa_desc">Eurooppalaista kahvilakulttuuria vaaliva ravintola on tunnettu  ystävällisestä ja ammattitaitoisesta henkilökunnastaan.</string>
+    <string name="europa_add">Aleksanterinkatu 29, 33100 Tampere</string>
+
+    <string name="amuri_title">Kahvila Amurin helmi</string>
+    <string name="amuri_desc">Museokahvilassa voi nauttia vaikka vanhanajan limonadia ja perinteisiä vehnäsiä. Tuotteita myös mukaan.</string>
+    <string name="amuri_add">Satakunnankatu 49, 33230 Tampere</string>
+
+    <!--nature-->
+    <string name="nasi_title">Näsijärvi</string>
+    <string name="nasi_desc">Toinen Tampereen suurista järvistä, varmasti tunnetuin. Purjehtijoiden ja huviveneilijöiden suosikki.</string>
+    <string name="nasi_add">Paras paikka kahlaajalintujen bongailuun</string>
+    
+    <string name="pyha_title">Pyhäjärvi</string>
+    <string name="pyha_desc">Toinen Tampereen suurista järvistä, kaupunkilaisten suosikki uima- ja kalapaikka.</string>
+    <string name="pyha_add">Pyynikin uimaranta on Tampereen paras</string>
+
+    <string name="koski_title">Tammerkoski</string>
+    <string name="koski_desc">Virtaa Näsijärvestä Pyhäjärveen, korkeusero 18 m. Yksi Suomen kansallismaisemista.</string>
+    <string name="koski_add">Kala-apaja kaupingin keskustassa</string>
+
+    <string name="kolu_title">Helvetinjärven kansallispuisto</string>
+    <string name="kolu_desc">Mm. kaksi rotkolaaksoa, jotka ovat syntyneet 150 - 200M vuotta sitten maankuoren halkeamien ja siirrosten seurauksena.</string>
+    <string name="kolu_add">50 km Tampereen pohjoispuolella</string>
+
+    <!--parks-->
+    <string name="koskipuisto_title">Koskipuisto</string>
+    <string name="koskipuisto_desc">Näe komeat kaarivalaisimet, koristeistutukset ja koskesta nostetut veistokselliset hiidenkivet. </string>
+    <string name="koskipuisto_add">Tampereen ydinkeskustassa</string>
+
+    <string name="hameenpuisto_title">Hämeenpuisto</string>
+    <string name="hameenpuisto_desc">Tampereen esplanadi on suosittu ajanviettopaikka kesäisin. Kahvilat tarjoilevat virvokkeita ja esiintyjät viihdykettä.</string>
+    <string name="hameenpuisto_add">Hämeenkadun lopussa, keskustan länsipuolella</string>
+
+    <string name="sorsapuisto_title">Sorsapuisto</string>
+    <string name="sorsapuisto_desc">Yli neljän hehtaarin laajuisessa Sorsapuistossa tamperelaiset pitävät hauskaa, kuntoilevat ja tapaavat ystäviään.</string>
+    <string name="sorsapuistoo_add">Tampere-talon naapurissa</string>
+
+    <string name="nottbeckinpuisto_title">Wilhelm von Nottbeckin puisto</string>
+    <string name="nottbeckinpuisto_desc">Finlaysonin tehtaan omistaja Wilhelm von Nottbeckin vuonna 1848 rakennuttama maisematyylinen puisto, joka perustettiin asuinrakennuksen ympärille. </string>
+    <string name="nottbeckinpuisto_add">Finlaysonin tehdasalueella</string>
+
+    <!--sights-->
+    <string name="sarkka_title">Särkänniemi</string>
+    <string name="sarkka_desc">Monipuolinen huvipuisto kaikenikäisille. Angry Birds Land, Koiramäki, huvilaitteet kuten Hype ja X...</string>
+    <string name="sarkka_add">Laiturikatu 1, 33230 Tampere</string>
+
+    <string name="vapriikki_title">Museokeskus Vapriikki</string>
+    <string name="vapriikki_desc">Vapriikki on monipuolinen museokeskus Tammerkosken rannalla koko perheelle. Teemat vaihtelevat historiasta tekniikkaan ja luonnontieteisiin.</string>
+    <string name="vapriikki_add">Alaverstaanraitti 5, 33100 Tampere</string>
+
+    <string name="muumi_title">Muumimuseo</string>
+    <string name="muumi_desc">Maailman ainoa muumimuseo on avattu! Missä muumien esi-isät asuivat?Mitä hattivatit tekevät ukonilmalla? </string>
+    <string name="muumi_add">Tampere-talo, Yliopistonkatu 55</string>
+
+    <string name="finlayson_title">Finlaysonin alue</string>
+    <string name="finlayson_desc">Ostoksia, ravintoloita, elokuvia ja historiallista miljöötä Tampereen tärkeimmässä korttelissa.</string>
+    <string name="finlayson_add">Finlaysoninkatu, 33101 Tampere</string>
 </resources>

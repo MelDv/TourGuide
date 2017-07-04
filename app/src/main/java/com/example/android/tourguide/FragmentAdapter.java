@@ -24,7 +24,7 @@ public class FragmentAdapter extends FragmentPagerAdapter {
         } else if (position == 2) {
             return new CafeFragment();
         } else {
-            return new LakesFragment();
+            return new NatureFragment();
         }
     }
 
@@ -37,13 +37,13 @@ public class FragmentAdapter extends FragmentPagerAdapter {
     public String getPageTitle(int position) {
         String title = "";
         if (position == 0) {
-            title = "Sights";
+            title = mContext.getString(R.string.sights);
         } else if (position == 1) {
-            title = "Parks";
+            title = mContext.getString(R.string.parks);
         } else if (position == 2) {
-            title = "Cafés";
+            title = mContext.getString(R.string.cafes);
         } else {
-            title = "Lakes";
+            title = mContext.getString(R.string.nature);
         }
         return title;
     }
