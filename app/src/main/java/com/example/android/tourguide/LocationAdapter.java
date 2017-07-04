@@ -25,34 +25,33 @@ public class LocationAdapter extends ArrayAdapter<Location> {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        View listItemView = convertView;
-        if (listItemView == null) {
-            listItemView = LayoutInflater.from(getContext()).inflate(
+        if (convertView == null) {
+            convertView = LayoutInflater.from(getContext()).inflate(
                     R.layout.list_item, parent, false);
         }
 
         Location currentLocation = getItem(position);
 
-        TextView title = (TextView) listItemView.findViewById(R.id.list_title);
+        TextView title = (TextView) convertView.findViewById(R.id.list_title);
         title.setText(currentLocation.getTitle());
 
-        TextView description = (TextView) listItemView.findViewById(R.id.list_description);
+        TextView description = (TextView) convertView.findViewById(R.id.list_description);
         description.setText(currentLocation.getDescription());
 
-        TextView address = (TextView) listItemView.findViewById(R.id.list_address);
+        TextView address = (TextView) convertView.findViewById(R.id.list_address);
         address.setText(currentLocation.getAddress());
 
-        ImageView imageView = (ImageView) listItemView.findViewById(R.id.image);
+        ImageView imageView = (ImageView) convertView.findViewById(R.id.image);
         if (currentLocation.hasImage()) {
             imageView.setImageResource(currentLocation.getImage());
         } else {
             imageView.setVisibility(View.GONE);
         }
 
-        View locationContainer = listItemView.findViewById(R.id.location_container);
+        View locationContainer = convertView.findViewById(R.id.location_container);
         int color = ContextCompat.getColor(getContext(), mColorResourceId);
         locationContainer.setBackgroundColor(color);
 
-        return listItemView;
+        return convertView;
     }
 }
